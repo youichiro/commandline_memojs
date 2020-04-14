@@ -1,0 +1,25 @@
+{
+  "name": "memo_sqlite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha test/ --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youichiro/memojs.git"
+  },
+  "author": "youichiro <cinnamon416@gmail.com> (https://github.com/youichiro/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youichiro/memojs/issues"
+  },
+  "homepage": "https://github.com/youichiro/memojs#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "enquirer": "^2.3.5",
+    "mocha": "^7.1.1",
+    "sqlite3": "^4.1.1"
+  }
+}
